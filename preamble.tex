@@ -1,0 +1,77 @@
+%\usetheme[frameno]{Arguelles}
+%\usetheme{default}
+\usetheme{Madrid}
+\usetheme{default}
+\usepackage{svg}
+%\usepackage{minted}
+\usepackage{adjustbox}
+\usepackage{listings}
+\usepackage{hyperref}
+
+% \usepackage[utf8]{inputenc}
+% \usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{blkarray}
+% \usepackage{sidecap}
+\usepackage{csquotes}
+\usepackage{amsmath}
+\usepackage{emoji}
+\usepackage[backend=biber,hyperref=true,style=numeric]{biblatex}
+
+% Установка цветов ссылок
+\hypersetup{
+    colorlinks=true,      % Включает цветные ссылки
+    linkcolor=blue,      % Цвет ссылок на внутренние ссылки
+    citecolor=blue,      % Цвет ссылок на цитаты
+    urlcolor=blue        % Цвет ссылок на URL
+}
+
+% Настройки для Python кода
+% Define style for Bash code
+\lstdefinestyle{bashStyle}{
+  language=Bash,
+  basicstyle=\ttfamily\footnotesize,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{orange},
+  showstringspaces=false,
+  columns=flexible,
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  backgroundcolor=\color{lightgray!20},
+  frame=single,
+  breaklines=true,
+  captionpos=b,
+  xleftmargin=1em,
+  xrightmargin=1em
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+% Define style for Python code
+\lstdefinestyle{pythonStyle}{
+  language=Python,
+  basicstyle=\ttfamily\footnotesize,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{orange},
+  showstringspaces=false,
+  columns=flexible,
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  backgroundcolor=\color{lightgray!20},
+  frame=single,
+  breaklines=true,
+  captionpos=b,
+  xleftmargin=1em,
+  xrightmargin=1em
+}
+
+% Добавление поддержки русского языка
+\usepackage[utf8]{inputenc} % UTF-8 кодировка
+\usepackage[russian, english]{babel} % Поддержка русского и английского языков
+\usepackage{tikz}
